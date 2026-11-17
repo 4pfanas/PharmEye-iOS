@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Copy this file to PharmEye/Supabase.plist (git-ignored) and fill in your project.
+  Use the publishable / anon key only. Never the service-role or secret key.
+-->
+<plist version="1.0">
+<dict>
+	<key>SupabaseURL</key>
+	<string>https://YOUR-PROJECT-REF.supabase.co</string>
+	<key>SupabaseAnonKey</key>
+	<string>YOUR-SUPABASE-ANON-KEY</string>
+</dict>
+</plist>

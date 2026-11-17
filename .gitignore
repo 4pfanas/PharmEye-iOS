@@ -1,0 +1,35 @@
+# --- Secrets & local config (never commit) ---
+Supabase.plist
+*.xcconfig
+!Config/*.example.xcconfig
+.env
+.env.*
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+GoogleService-Info.plist
+**/Secrets*
+
+# --- Xcode user state & build output ---
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# --- Swift Package Manager ---
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
